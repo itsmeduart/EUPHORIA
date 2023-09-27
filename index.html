@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+    <head>
+        <meta charset='UTF-8' />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EUPHORIA | SITE</title>
+        <link rel='stylesheet' href='./css/index.css'>
+    </head>
+    <body>
+        <div class='container'>
+            <section class='formulario'>
+                <form>
+                    <div class='titulo'>
+                        <h1>Cadastro</h1>
+                        <h2>Assista a série do momento!!!</h2>
+                    </div>
+                    <section>
+                        <div>
+                            <label for='nome'><span>Nome</span></label>
+                            <label for='email'><span>E-mail</span></label>
+                            <label for='data'><span>Data de nascimento</span></label>
+                            <label for='estado'><span>Estado</span></label>
+                            <label for='senha'><span>Senha</span></label>
+                            <label for='confSenha'><span>Confirme a senha</span></label>
+                        </div>
+                        <div>
+                            <input type='text' placeholder='' id='nome' class='input' required/>
+                            <input type='email' placeholder='' id='email' class='input' required/>
+                            <input type='date' placeholder='Dez 10, 2001' id='data' class='input' required/>
+                            <input type='text' placeholder='' id='estado' class='input' required/>
+                            <input type='password' placeholder='' id='senha' class='input' required/>
+                            <input type='password' placeholder='' id='confSenha' class='input' required/>
+                            <button type='submit'>Cadastar</button>
+                        </div>
+                    </section>
+                </form>
+            </section>
+            <section class='flier'>
+                <div class='flier-overlay'>
+                    <header>
+                        <a href='#'>
+                            <img src='./image/logo-eupho.png' alt='botão de menu' />
+                        </a>
+                        <span>Euphoria</span>
+                    </header>
+                    <main>
+                        <section>
+                            <span></span>
+                            <h1></h1>
+                        </section>
+                        <span>A SÉRIE PREMIADA!</span>
+                    </main>
+                </div>
+                <img src='https://flxt.tmsimg.com/assets/p16805962_b_v13_ab.jpg' alt=''/>
+            </section>
+        </div>
+    </body>
+</html>
